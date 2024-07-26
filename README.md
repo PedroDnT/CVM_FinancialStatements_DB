@@ -1,4 +1,4 @@
-#CVM Financial Statements Database
+# CVM Financial Statements Database
 - Scripts that automatically download and upload consolidated financial statments for companies listed on CVM and save them in a postgres database
 - additional scripts to interact with the database and return statments in the usual form 
 
