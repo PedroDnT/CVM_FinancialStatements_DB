@@ -9,6 +9,7 @@
 3. Creates and saves in the dir CSV for statment balnce_sheet, Income Statement and cash_flow_statement (DFC metodo direto). All from consolidado statements
 3.1 The statements are in the form of
    GRUPO_DFP | CD_CVM | DENOM_CIA | CD_CONTA | DS_CONTA | ST_CONTA_FIXA | DT_FIM_EXERC | VL_CONTA
+   
 Should run under 3 minutes total maximum. 
 
 ## database_uploader.py
@@ -26,7 +27,7 @@ Should run under 3 minutes total maximum.
 4. get_company_name_by_cd_cvm returns the company name given cd_cvm from the database
 
 ## Run instructions
-1. Create a .env file with the database connection string
+1. Create a .env file with the database connection string by renaming .env.example and adding string. Suggested to use Neon DB.
 2. Run poetry shell (make sure poetry is installed - in MacOS brew install poetry)
 2. Run the script cvm_downloader.py
 3. Run the script database_uploader.py
