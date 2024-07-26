@@ -23,3 +23,10 @@ Should run under 3 minutes total maximum.
 2. get_companies_list returns a list of companies from the database
 3. get_distinct_cd_cvm returns a list of distinct cd_cvm from the database
 4. get_company_name_by_cd_cvm returns the company name given cd_cvm from the database
+
+## Run instructions
+1. Create a .env file with the database connection string
+2. Run poetry shell (make sure poetry is installed - in MacOS brew install poetry)
+2. Run the script cvm_downloader.py
+3. Run the script database_uploader.py
+4. Use db_interaction.py to interact with the database
